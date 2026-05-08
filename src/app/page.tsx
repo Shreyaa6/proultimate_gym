@@ -68,9 +68,18 @@ export default function Home() {
           </div>
           
           <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
-            <p className="text-[10px] uppercase tracking-widest text-white/30 font-bold">
-              © 2024 proultimate gym - SEC. 48 GURGAON. All Rights Reserved.
-            </p>
+            <div className="flex flex-col md:flex-row items-center gap-2 md:gap-6">
+              <p className="text-[10px] uppercase tracking-widest text-white/30 font-bold">
+                © 2024 proultimate gym - SEC. 48 GURGAON. All Rights Reserved.
+              </p>
+              <a 
+                href="https://carveyourbrand.in/" 
+                target="_blank" 
+                className="text-[10px] uppercase tracking-widest text-accent font-black hover:opacity-80 transition-opacity"
+              >
+                Made by carveyourbrand
+              </a>
+            </div>
             <div className="flex gap-8 text-[10px] uppercase tracking-widest text-white/30 font-bold">
               <a href="#" className="hover:text-white">Privacy Policy</a>
               <a href="#" className="hover:text-white">Terms of Service</a>
